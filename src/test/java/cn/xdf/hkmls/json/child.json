@@ -1,0 +1,122 @@
+
+  {
+    "childObj": {
+      "childId": 200000,
+      "location": "city",
+      "age": 14,
+      "character":"热情",
+      "gender": "m",
+      "hobby": [
+        "收藏硬币",
+        "收藏海贝"
+      ],
+      "hpGender": "m",
+      "hopAges": "8-10",
+      "resource": {
+        "books": [
+          "辽史",
+          "魏书"
+        ],
+        "toys": [
+          "卡士通玩具收银机",
+          "芭比娃娃"
+        ],
+      },
+      "hpResource": {
+        "books": [
+          "辽史",
+          "魏书"
+        ],
+        "toys": [
+          "卡士通玩具收银机",
+          "芭比娃娃"
+        ],
+      }
+    },
+    "countrysideList":[
+      {
+        "childId":"2222",
+        "simvalues":"30.20%",
+        "values": [
+          "14",
+          "卡士通玩具收银机",
+        ],
+        "childObj": {
+          "childId": 200000,
+          "location": "city",
+          "age": 14,
+          "character":"热情",
+          "gender": "m",
+          "hobby": [
+            "收藏硬币",
+            "收藏海贝"
+          ],
+          "hpGender": "m",
+          "hopAges": "8-10",
+          "resource": {
+            "books": [
+              "辽史",
+              "魏书"
+            ],
+            "toys": [
+              "卡士通玩具收银机",
+              "芭比娃娃"
+            ],
+          },
+          "hpResource": {
+            "books": [
+              "辽史",
+              "魏书"
+            ],
+            "toys": [
+              "卡士通玩具收银机",
+              "芭比娃娃"
+            ],
+          }
+        }
+      }
+    ],
+    "cityList":[
+      {
+        "childId":"2222",
+        "simvalues":"30.20%",
+        "values": [
+          "14",
+          "卡士通玩具收银机",
+        ],
+        "childObj": {
+          "childId": 200000,
+          "location": "city",
+          "age": 14,
+          "character":"热情",
+          "gender": "m",
+          "hobby": [
+            "收藏硬币",
+            "收藏海贝"
+          ],
+          "hpGender": "m",
+          "hopAges": "8-10",
+          "resource": {
+            "books": [
+              "辽史",
+              "魏书"
+            ],
+            "toys": [
+              "卡士通玩具收银机",
+              "芭比娃娃"
+            ],
+          },
+          "hpResource": {
+            "books": [
+              "辽史",
+              "魏书"
+            ],
+            "toys": [
+              "卡士通玩具收银机",
+              "芭比娃娃"
+            ],
+          }
+        }
+      }
+    ]
+  }

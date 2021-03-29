@@ -1,0 +1,16 @@
+server:
+  port: 8090
+spring:
+  redis:
+    database: 1
+    host: 127.0.0.1
+    port: 6378
+    timeout: 5000
+executor:
+  corePoolSize: 16
+  maxPoolSize: 50
+  queueCapacity: 200
+  keepAliveSeconds: 200
+  threadNamePrefix: hkmls-taskExecutor-
+  waitForTasksToCompleteOnShutdown: true
+  awaitTerminationSeconds: 60
