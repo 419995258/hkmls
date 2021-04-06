@@ -24,12 +24,16 @@ public class HkmlsApplication {
     public CorsFilter corsFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration corsConfiguration = new CorsConfiguration();
+        // 1、允许任何域名使用
         corsConfiguration.addAllowedOrigin("*");
+        // 2、允许任何头
         corsConfiguration.addAllowedHeader("*");
+        // 3、允许任何方法（post、get等）
         corsConfiguration.addAllowedMethod("*");
-        corsConfiguration.addExposedHeader("x-auth-token");
-        corsConfiguration.addExposedHeader("x-total-count");
-        source.registerCorsConfiguration("/**", corsConfiguration); // 4
+        // 允许携带cookie跨域
+        corsConfiguration.setAllowCredentials(true);
+        //
+        source.registerCorsConfiguration("/**", corsConfiguration);
         return new CorsFilter(source);
     }
 
